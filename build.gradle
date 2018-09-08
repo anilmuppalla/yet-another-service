@@ -17,7 +17,7 @@ apply plugin: 'application'
 
 group 'yet-another-service'
 version '0.0.1'
-mainClassName = "io.ktor.server.netty.DevelopmentEngine"
+mainClassName = "ApplicationKt"
 
 sourceSets {
     main.kotlin.srcDirs = main.java.srcDirs = ['src']
